@@ -1,0 +1,73 @@
+
+table{
+    margin-top: 6rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    height: 35rem;
+    font-size: 4rem;
+    cursor: pointer;
+
+
+}
+
+
+
+th{
+    padding: 5rem;
+    border: 1px solid black;
+    width: 9rem;
+
+
+
+
+}
+
+
+.info{
+
+    margin-top: 7rem;
+
+}
+h1{
+    font-size: 4rem;
+}
+
+.mole{
+    background-image: url(mole.png);
+}
+
+
+.result{
+    margin-top: 10rem;
+    background-color: yellow;
+    color: brown;
+    height: 34rem;
+    border-style: 2px solid black;
+    border-radius: 2rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4rem;
+    display: none;
+    text-align: center;
+  
+
+}
+
+.resultText{
+
+    padding: 7rem;
+    color: black;
+}
+
+.restart{
+    padding: 1rem;
+    background-color: black;
+    color: yellow;
+    border-radius: 2rem;
+
+}
