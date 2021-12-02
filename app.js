@@ -1,24 +1,16 @@
 
 
-var table = document.querySelector("table")
-var one = document.querySelector(".one")
-var two = document.querySelector(".two")
-var three = document.querySelector(".three")
-var four = document.querySelector(".four")
-var five = document.querySelector(".five")
-var six = document.querySelector(".six")
-var seven = document.querySelector(".seven")
-var eight = document.querySelector(".eight")
-var nine = document.querySelector(".nine")
+const table = document.querySelector("table")
 
-var ths = document.querySelectorAll("th")
-var info = document.querySelector(".info")
-var timer = document.querySelector(".timer")
 
-var result = document.querySelector(".result")
-var resultText = document.querySelector(".resultText")
-var restart = document.querySelector(".restart")
-var zeit = 60;
+const ths = document.querySelectorAll("th")
+const info = document.querySelector(".info")
+const timer = document.querySelector(".timer")
+
+const result = document.querySelector(".result")
+const resultText = document.querySelector(".resultText")
+const restart = document.querySelector(".restart")
+const zeit = 60;
 
 var counter = 0;
 info.textContent = "Your points: "+ counter;
